@@ -31,7 +31,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"nome_botao","filters":[],"listItems":[
+    {"$GMObjectProperty":"v2","%Name":"nome_botao","filters":[],"listItems":[
         "\"Jogar\"",
         "\"Minijogos\"",
         "\"Opcoes\"",

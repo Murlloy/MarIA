@@ -27,8 +27,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"desbloqueado","filters":[],"listItems":[],"multiselect":false,"name":"desbloqueado","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
-    {"$GMObjectProperty":"v1","%Name":"fase","filters":[],"listItems":[
+    {"$GMObjectProperty":"v2","%Name":"desbloqueado","filters":[],"listItems":[],"multiselect":false,"name":"desbloqueado","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"fase","filters":[],"listItems":[
         "\"Item 0\"",
       ],"multiselect":false,"name":"fase","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
   ],

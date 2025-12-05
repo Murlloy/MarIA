@@ -27,10 +27,21 @@ for (var i = 0; i < array_length(layers); i++) {
 }
 
 
-if(global.estrelas >= 10) {
+if(global.estrelas >= 20) 
+{
 	
-	var alvo = noone
+	with (obj_selecionar_mapa) {
+		if(fase == 3) {
+			desbloqueado = true
+			break;
+		}
+	}
+
 	
+}
+if(global.estrelas >= 10) 
+{
+
 	with (obj_selecionar_mapa) {
 		if(fase == 2) {
 			desbloqueado = true
@@ -38,7 +49,6 @@ if(global.estrelas >= 10) {
 		}
 	}
 
-	
 }
 
 

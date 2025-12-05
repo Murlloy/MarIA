@@ -16,6 +16,6 @@ switch(fase) {
 		break;
 		
 	case 3:
-		sprite_index = spr_forest;
+		sprite_index = spr_loja_jao_pequeno;
 		break;
 }

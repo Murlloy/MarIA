@@ -1,5 +1,5 @@
 
-if(global.pausado){
+if(global.pausado or obj_controller._fim_partida){
 	exit
 }
 
@@ -49,7 +49,7 @@ switch(tipo_lixo) {
 		break;
 		
 	case "plastico":
-		sprite_index = spr_lxo_plastico;
+		sprite_index = spr_lixo_plastico;
 		lixo_certo = "Plastico"
 		break;
 		
@@ -61,6 +61,11 @@ switch(tipo_lixo) {
 	case"papel":
 		sprite_index = spr_lixo_papel;
 		lixo_certo = "Papel"
+		break;
+		
+	case"vidro":
+		sprite_index = spr_lixo_vidro;
+		lixo_certo = "Vidro"
 		break;
 		
 
@@ -77,6 +82,8 @@ if(place_meeting(x, y, obj_lata_lixo)){
 	}
 	
 	global._segurando = undefined
+	
+	audio_play_sound(snd_jogar_fora, 1, false)
 	
 	instance_destroy()
 	

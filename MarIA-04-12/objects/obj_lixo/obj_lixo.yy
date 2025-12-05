@@ -28,11 +28,12 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"tipo_lixo","filters":[],"listItems":[
+    {"$GMObjectProperty":"v2","%Name":"tipo_lixo","filters":[],"listItems":[
         "\"plastico\"",
         "\"metal\"",
         "\"organico\"",
         "\"papel\"",
+        "\"vidro\"",
       ],"multiselect":false,"name":"tipo_lixo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"organico\"","varType":6,},
   ],
   "resourceType":"GMObject",

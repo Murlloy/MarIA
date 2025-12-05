@@ -27,7 +27,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"tipo_lixo","filters":[],"listItems":[
+    {"$GMObjectProperty":"v2","%Name":"tipo_lixo","filters":[],"listItems":[
         "\"Metal\"",
         "\"Plastico\"",
         "\"Vidro\"",

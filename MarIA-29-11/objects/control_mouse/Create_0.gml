@@ -1,3 +1,0 @@
-
-global._segurando = false
-

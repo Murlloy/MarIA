@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_close",
-    "path":"sprites/spr_close/spr_close.yy",
+    "name":"spr_exit",
+    "path":"sprites/spr_exit/spr_exit.yy",
   },
   "spriteMaskId":null,
   "visible":true,
