@@ -48,6 +48,7 @@
     {"id":{"name":"control_mouse","path":"objects/control_mouse/control_mouse.yy",},},
     {"id":{"name":"controller_pontos","path":"objects/controller_pontos/controller_pontos.yy",},},
     {"id":{"name":"obj_botao","path":"objects/obj_botao/obj_botao.yy",},},
+    {"id":{"name":"obJ_controller_falas","path":"objects/obJ_controller_falas/obJ_controller_falas.yy",},},
     {"id":{"name":"obj_controller_menu","path":"objects/obj_controller_menu/obj_controller_menu.yy",},},
     {"id":{"name":"obj_controller_selecionar_mapa","path":"objects/obj_controller_selecionar_mapa/obj_controller_selecionar_mapa.yy",},},
     {"id":{"name":"obj_controller_sound","path":"objects/obj_controller_sound/obj_controller_sound.yy",},},
