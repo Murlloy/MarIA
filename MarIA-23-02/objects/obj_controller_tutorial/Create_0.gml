@@ -1,4 +1,5 @@
 
+pode_passar = false
 
 enum TUTORIAL {
 	falas,

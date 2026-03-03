@@ -1,13 +1,16 @@
+
+
 if(global.tutorial) {
-	
-	global.pausado = true
-	global.bloqueado = true
-	desenhar_falas = true
+
 	
 		switch estado_tutorial{
 			
 			case TUTORIAL.falas:
-				
+					if(pode_passar) 
+					{
+						estado_tutorial = TUTORIAL.exercicios
+						pode_passar = false
+					}
 				break;
 				
 			case TUTORIAL.exercicios:
@@ -16,8 +19,16 @@ if(global.tutorial) {
 				switch lixo_atual{
 					
 					case 0:
-						lista_falas = ["Vamos para os lixos!!", "Este é o Plastico!! ele deve ser descartado no lixo vermelho"]
-						desenhar_falas = false
+					
+						obJ_controller_falas.lista_falas = ["Vamos para os lixos!!", "Este é o Plastico!! ele deve ser descartado no lixo vermelho"]
+						obJ_controller_falas.desenhar_falas = true
+						if(pode_passar) {
+							lixo_atual += 1;
+							pode_passar = false
+						}
+						
+
+						
 						break;
 						
 						

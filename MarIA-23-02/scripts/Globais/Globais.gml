@@ -3,6 +3,7 @@ global.mapa_selecionado = 1
 global.fase_selecionada = 1
 global.bloqueado = false
 global.tutorial = true
+global.pausado = true
 
 
 // estrelas
