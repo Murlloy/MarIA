@@ -25,6 +25,7 @@
     {"name":"menu","order":7,"path":"folders/Sprites/menu.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"control_falas","order":11,"path":"objects/control_falas/control_falas.yy",},
     {"name":"controller_pontos","order":7,"path":"objects/controller_pontos/controller_pontos.yy",},
     {"name":"obJ_controller_falas","order":10,"path":"objects/obJ_controller_falas/obJ_controller_falas.yy",},
     {"name":"obj_controller_menu","order":9,"path":"objects/obj_controller_menu/obj_controller_menu.yy",},

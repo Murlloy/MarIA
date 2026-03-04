@@ -20,16 +20,21 @@ if(global.tutorial) {
 					
 					case 0:
 					
-						obJ_controller_falas.lista_falas = ["Vamos para os lixos!!", "Este é o Plastico!! ele deve ser descartado no lixo vermelho"]
-						obJ_controller_falas.desenhar_falas = true
+						control_falas.lista_falas = ["Vamos para os lixos!!", "Este é o Plastico!! ele deve ser descartado no lixo vermelho"]
+						control_falas.desenhar_falas = true
+						
+						
+						
 						if(pode_passar) {
 							lixo_atual += 1;
 							pode_passar = false
 						}
-						
 
 						
 						break;
+						
+					case 1: 
+						
 						
 						
 				}

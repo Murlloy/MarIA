@@ -45,6 +45,7 @@
   "name":"MarIA-23-02",
   "resources":[
     {"id":{"name":"font_mine","path":"fonts/font_mine/font_mine.yy",},},
+    {"id":{"name":"control_falas","path":"objects/control_falas/control_falas.yy",},},
     {"id":{"name":"control_mouse","path":"objects/control_mouse/control_mouse.yy",},},
     {"id":{"name":"controller_pontos","path":"objects/controller_pontos/controller_pontos.yy",},},
     {"id":{"name":"obj_botao","path":"objects/obj_botao/obj_botao.yy",},},
