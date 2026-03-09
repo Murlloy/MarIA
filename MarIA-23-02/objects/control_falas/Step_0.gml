@@ -15,10 +15,12 @@ if(desenhar_falas){
 				show_debug_message("Passou")
 				fala = 0
 				desenhar_falas = false
+				delay = max_delay
 			}else {
 				fala += 1
+				delay = max_delay
 			} 
-			delay = max_delay
+			
 		}
 	}
 }
