@@ -1,3 +1,6 @@
+
+if(!global.tutorial) exit;
+
 if(desenhar_falas){
 
     global.pausado = true

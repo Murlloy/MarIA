@@ -5,11 +5,15 @@ if(lata.tipo_lixo == lixo_certo){
     global.pontos += 20
 
     if(tutorial){
-        obj_controller_tutorial.lixo_atual += 1
-        obj_controller_tutorial.etapa_iniciada = false
+        with(obj_controller_tutorial){
 
-        if(obj_controller_tutorial.lixo_atual >= obj_controller_tutorial.lixos_totais){
-            obj_controller_tutorial.estado_tutorial = TUTORIAL.finalizacao
+            lixo_atual += 1
+            etapa_iniciada = false
+
+            if(lixo_atual >= lixos_totais){
+                estado_tutorial = TUTORIAL.finalizacao
+            }
+
         }
     }
 
@@ -17,16 +21,26 @@ if(lata.tipo_lixo == lixo_certo){
 
     global.pontos -= 10
 
-    control_falas.lista_falas = [
-    "Ops!",
-    "Essa não é a lixeira correta.",
-    "Tente novamente!"
-    ]
+    with(control_falas){
 
-    control_falas.fala = 0
-    control_falas.desenhar_falas = true
+        lista_falas = [
+        "Ops!",
+        "Essa não é a lixeira correta.",
+        "Tente novamente!"
+        ]
+
+        fala = 0
+        desenhar_falas = true
+
+    }
 
 }
+
+
+// LIBERA O SISTEMA DE SEGURAR
+global._segurando = false
+global.lixo_selecionado = noone
+
 
 audio_play_sound(snd_jogar_fora,1,false)
 

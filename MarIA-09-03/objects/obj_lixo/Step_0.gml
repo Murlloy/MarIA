@@ -1,6 +1,9 @@
-if(global.pausado) exit
+if(global.pausado or obj_controller._fim_partida){
+    exit
+}
 
-// define sprite e tipo correto
+
+// definir sprite e tipo correto
 switch(tipo_lixo){
 
     case "metal":
@@ -31,16 +34,21 @@ switch(tipo_lixo){
 }
 
 
-// pegar lixo com mouse
+
+// distância do mouse
 var distancia_mouse = point_distance(x,y,mouse_x,mouse_y)
 
+
+// selecionar lixo
 if(!global._segurando){
 
     if(distancia_mouse < 80){
 
         if(mouse_check_button_pressed(mb_left)){
+
             global.lixo_selecionado = id
             global._segurando = true
+
         }
 
         image_index = 1
@@ -54,6 +62,7 @@ if(!global._segurando){
 }
 
 
+
 // arrastar lixo
 if(global._segurando && global.lixo_selecionado == id){
 
@@ -61,7 +70,10 @@ if(global._segurando && global.lixo_selecionado == id){
     y = mouse_y
 
     if(mouse_check_button_released(mb_left)){
+
         global._segurando = false
+        global.lixo_selecionado = undefined
+
     }
 
 }
