@@ -3,6 +3,8 @@ var lata = other
 if(lata.tipo_lixo == lixo_certo){
 
     global.pontos += 20
+	
+	global.cor_certa = noone
 
     if(tutorial){
         with(obj_controller_tutorial){
@@ -22,13 +24,17 @@ if(lata.tipo_lixo == lixo_certo){
     global.pontos -= 10
 
     with(control_falas){
+		
 
         lista_falas = [
         "Ops!",
         "Essa não é a lixeira correta.",
+		"A correta é a " + other.cor,
         "Tente novamente!"
         ]
-
+		
+		global.cor_certa = other.lixo_certo
+		
         fala = 0
         desenhar_falas = true
 

@@ -1,6 +1,6 @@
 
 
-if(obj_controller._fim_partida or global.tutorial){
+if(obj_controller._fim_partida or global.tutorial or global.pausado){
 	alarm[0] = 250
 	exit
 }

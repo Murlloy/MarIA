@@ -4,6 +4,7 @@ global.fase_selecionada = 1
 global.bloqueado = false
 global.tutorial = true
 global.pausado = true
+global.cor_certa = noone
 
 
 // estrelas
@@ -107,12 +108,12 @@ global.configuracoes_fase = {
 global.quantidade_estrelas_fase = {
 
 	mundo1: [
-		0,		// fase 1
-		0,	// fase 2
-		0,	// fase 3
-		0,	// fase 4
-		0,	// fase 5
-		0,	// fase 6
+		3,		// fase 1
+		3,	// fase 2
+		3,	// fase 3
+		3,	// fase 4
+		3,	// fase 5
+		3,	// fase 6
 		0,	// fase 7
 		0,	// fase 8
 		0,	// fase 9

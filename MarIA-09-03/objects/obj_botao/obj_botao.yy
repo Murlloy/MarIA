@@ -13,8 +13,8 @@
   "name":"obj_botao",
   "overriddenProperties":[],
   "parent":{
-    "name":"interagiveis",
-    "path":"folders/Objetos/interagiveis.yy",
+    "name":"menu_buttons",
+    "path":"folders/Objetos/interagiveis/menu_buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

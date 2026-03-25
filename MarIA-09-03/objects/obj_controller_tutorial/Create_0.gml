@@ -1,5 +1,7 @@
 pode_passar = false
 
+_finalizacao = false
+
 enum TUTORIAL {
     falas,
     exercicios,
@@ -15,3 +17,13 @@ tipo_lixo = ""
 sprite_lixo = noone
 
 etapa_iniciada = false
+
+// sistema de finalização
+opcao_selecionada = 0
+opcoes = [
+	"Sair para o Menu",
+]
+
+//variaveis final
+delay = 0
+max_delay = 30

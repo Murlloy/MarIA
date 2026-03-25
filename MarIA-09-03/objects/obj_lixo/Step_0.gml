@@ -9,26 +9,31 @@ switch(tipo_lixo){
     case "metal":
         sprite_index = spr_lixo_metal
         lixo_certo = "Metal"
+		cor = "Amarela"
     break;
 
     case "plastico":
         sprite_index = spr_lixo_plastico
         lixo_certo = "Plastico"
+		cor = "Vermelha"
     break;
 
     case "organico":
         sprite_index = spr_lixo_organico
         lixo_certo = "Organico"
+		cor = "Marrom"
     break;
 
     case "papel":
         sprite_index = spr_lixo_papel
         lixo_certo = "Papel"
+		cor = "Azul"
     break;
 
     case "vidro":
         sprite_index = spr_lixo_vidro
         lixo_certo = "Vidro"
+		cor = "Verde"
     break;
 
 }

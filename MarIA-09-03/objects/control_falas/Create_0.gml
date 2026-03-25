@@ -4,7 +4,7 @@ delay = 0
 max_delay = 30
 
 lista_falas = [
-"Bem vindo ao EcoGame!",
+"Bem vindo a MarIA EcoGame!",
 "Aqui você aprenderá a descartar o lixo corretamente."
 ]
 

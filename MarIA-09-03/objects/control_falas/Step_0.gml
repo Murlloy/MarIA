@@ -22,6 +22,8 @@ if(desenhar_falas){
             desenhar_falas = false
 
             delay = max_delay
+			
+			global.bloqueado = false
 
         }else{
 

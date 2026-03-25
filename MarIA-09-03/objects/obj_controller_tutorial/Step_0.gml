@@ -97,7 +97,54 @@ switch(estado_tutorial){
             alarm[0] = 1
             pode_passar = false
         }
+		
+		break;
 
-    break;
+		case TUTORIAL.finalizacao:
+		
+			_finalizacao = true
+			
+			//logica do menu finalização
+			
+			if(delay > 0){
+				delay--
+			}else {
 
+				if(keyboard_check_pressed(vk_up)) 
+				{
+					if(opcao_selecionada <= 0) {
+					opcao_selecionada = array_length(opcoes) - 1
+				}else {
+					opcao_selecionada -= 1
+				}
+				}
+		
+				if(keyboard_check_pressed(vk_down)) 
+				{
+				if(opcao_selecionada >= array_length(opcoes) - 1) {
+					opcao_selecionada = 0
+				}else {
+					opcao_selecionada += 1
+				}
+				}
+
+				}
+	
+				if(keyboard_check_pressed(vk_enter))
+				{
+					// switch case caso seja fim de partida
+		
+						switch(opcao_selecionada) 
+						{
+							case 0: 
+								global.pontos = 0;
+								_fim_partida = false
+								global.pausado = false
+								room_goto(SelecionarFase)
+								global.tutorial = false
+								break
+								
+						}
+					}
+				
 }
