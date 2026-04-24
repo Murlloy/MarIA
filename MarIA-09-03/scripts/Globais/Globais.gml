@@ -2,7 +2,7 @@
 global.mapa_selecionado = 1
 global.fase_selecionada = 1
 global.bloqueado = false
-global.tutorial = true
+global.tutorial = false
 global.pausado = true
 global.cor_certa = noone
 
@@ -63,7 +63,7 @@ global.configuracoes_fase = {
 	// star1, star2, star3, tempo
 	
     mundo1: [
-        [150, 180, 200, 0, 60], // fase 1
+        [150, 180, 200, 0, 10], // fase 1
         [200, 260, 340, 0, 60], // fase 2
         [220, 280, 380, 0, 60],  // fase 3
 		[150, 180, 200, 0, 60], // fase 4
@@ -108,12 +108,12 @@ global.configuracoes_fase = {
 global.quantidade_estrelas_fase = {
 
 	mundo1: [
-		3,		// fase 1
-		3,	// fase 2
-		3,	// fase 3
-		3,	// fase 4
-		3,	// fase 5
-		3,	// fase 6
+		0,		// fase 1
+		0,	// fase 2
+		0,	// fase 3
+		0,	// fase 4
+		0,	// fase 5
+		0,	// fase 6
 		0,	// fase 7
 		0,	// fase 8
 		0,	// fase 9

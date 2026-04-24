@@ -1,4 +1,6 @@
-if(!global.tutorial) exit
+if(!global.tutorial) {
+	exit
+}
 
 // define qual lixo está sendo ensinado
 switch(lixo_atual){
@@ -140,8 +142,8 @@ switch(estado_tutorial){
 								global.pontos = 0;
 								_fim_partida = false
 								global.pausado = false
-								room_goto(SelecionarFase)
 								global.tutorial = false
+								room_goto(SelecionarFase)
 								break
 								
 						}
