@@ -3,6 +3,15 @@ if(global.pausado or obj_controller._fim_partida){
 }
 
 
+if tempo_atual >= tempo_max 
+{
+	instance_create_depth(x,y, 1, obj_explosion)
+	instance_destroy()
+}
+
+tempo_atual+=1
+
+
 // definir sprite e tipo correto
 switch(tipo_lixo){
 

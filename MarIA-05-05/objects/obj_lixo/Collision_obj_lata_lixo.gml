@@ -1,5 +1,6 @@
 var lata = other
 
+
 if(lata.tipo_lixo == lixo_certo){
 
     global.pontos += 20
@@ -27,12 +28,14 @@ if(lata.tipo_lixo == lixo_certo){
 
         }
 		audio_play_sound(snd_jogar_fora,1,false)
-
+		
+		
 		instance_destroy()
 		exit
     }
 	
-	lixos_contados[1] += 1
+	lixos_contados[0] += 1
+	lixos_contados[2] += 1 
 	
 	audio_play_sound(snd_jogar_fora,1,false)
 	instance_destroy()
@@ -41,6 +44,7 @@ if(lata.tipo_lixo == lixo_certo){
 }else{
 	
 	lixos_contados[1] += 1
+	lixos_contados[2] += 1 
 	
     global.pontos -= 10
 

@@ -30,4 +30,24 @@ function total_geral_lixos()
 	global.lixos_contados.organico[2];
 }
 
+function total_certos_lixos()
+{
+	return
+	global.lixos_contados.plastico[0] +
+	global.lixos_contados.metal[0] +
+	global.lixos_contados.vidro[0] +
+	global.lixos_contados.papel[0] +
+	global.lixos_contados.organico[0];
+}
+
+function total_errados_lixos()
+{
+	return
+	global.lixos_contados.plastico[1] +
+	global.lixos_contados.metal[1] +
+	global.lixos_contados.vidro[1] +
+	global.lixos_contados.papel[1] +
+	global.lixos_contados.organico[1];
+}
+
 control_falas.fala = 0

@@ -10,4 +10,8 @@ switch (nome_botao)
 	case "Creditos":
 		room_goto(Final)
 		break;
+		
+	case "Sair":
+		game_end(); 
+		break
 }

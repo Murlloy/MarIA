@@ -4,6 +4,9 @@ tipo_lixo = "Plastico"
 lixo_certo = ""
 cor = ""
 
+tempo_atual = 0
+tempo_max = 238
+
 lixos_contados = noone
 
 switch tipo_lixo

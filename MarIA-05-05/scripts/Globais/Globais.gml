@@ -2,7 +2,7 @@
 global.mapa_selecionado = 1
 global.fase_selecionada = 1
 global.bloqueado = false
-global.tutorial = true
+global.tutorial = false
 global.pausado = true
 global.cor_certa = noone
 
