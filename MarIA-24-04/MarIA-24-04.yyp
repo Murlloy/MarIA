@@ -103,6 +103,8 @@
     {"id":{"name":"spr_back_fundo","path":"sprites/spr_back_fundo/spr_back_fundo.yy",},},
     {"id":{"name":"spr_back_lua","path":"sprites/spr_back_lua/spr_back_lua.yy",},},
     {"id":{"name":"spr_back_nuvens","path":"sprites/spr_back_nuvens/spr_back_nuvens.yy",},},
+    {"id":{"name":"spr_background_ask_1","path":"sprites/spr_background_ask_1/spr_background_ask_1.yy",},},
+    {"id":{"name":"spr_background_ask","path":"sprites/spr_background_ask/spr_background_ask.yy",},},
     {"id":{"name":"spr_beach","path":"sprites/spr_beach/spr_beach.yy",},},
     {"id":{"name":"spr_blue_pisca","path":"sprites/spr_blue_pisca/spr_blue_pisca.yy",},},
     {"id":{"name":"spr_botao","path":"sprites/spr_botao/spr_botao.yy",},},
@@ -140,8 +142,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Final","path":"rooms/Final/Final.yy",},},
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
+    {"roomId":{"name":"Final","path":"rooms/Final/Final.yy",},},
     {"roomId":{"name":"Partida","path":"rooms/Partida/Partida.yy",},},
     {"roomId":{"name":"SelecionarFase","path":"rooms/SelecionarFase/SelecionarFase.yy",},},
     {"roomId":{"name":"SelecionarMapa","path":"rooms/SelecionarMapa/SelecionarMapa.yy",},},
