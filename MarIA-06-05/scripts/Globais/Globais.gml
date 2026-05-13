@@ -1,3 +1,4 @@
+
 //sistema para selecionar mapa
 global.mapa_selecionado = 1
 global.fase_selecionada = 1

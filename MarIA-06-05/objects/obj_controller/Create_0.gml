@@ -1,4 +1,20 @@
 
+var gw = 1366;
+var gh = 768;
+
+var sw = display_get_gui_width();
+var sh = display_get_gui_height();
+
+var scale = min(sw/gw, sh/gh);
+
+var w = gw * scale;
+var h = gh * scale;
+
+var x_x = (sw - w)/2;
+var y_y = (sh - h)/2;
+
+draw_surface_ext(application_surface, x_x, y_y, scale, scale, 0, c_white, 1);
+
 estrelas = 0
 
 // fase e mapa
